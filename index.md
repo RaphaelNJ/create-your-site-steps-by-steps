@@ -65,10 +65,39 @@ Bravo ! VS Code est désormais installé sur votre machine.
 ### Introduction au HTML
 Le HTML est le language de programation principal interprêté par le navigateur internet. En effet, quand nous nous connectons à un site internet, nous demandeont au serveur de nous envoyer plusieurs fichiers qui seront interprêtés par le navigateur pour afficher la page en question.
 
-nous allons à présent préparer notre IDE:
+Nous allons à présent préparer notre IDE:
 
 [<video width="720"  controls muted><source src="media/vscode-prepare.mp4" type="video/mp4"></video>](media/vscode-prepare.mp4)
 
 Puis créer la base de notre page grace à l'auto complétion de vs code:
 
 [<video width="720" controls muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
+
+#### Décomposont notre code
+
+Le code :
+
+```xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello World !</p>
+</body>
+</html>
+```
+
+\
+
+```xml
+<!DOCTYPE html>
+```
+
+Nous pouvons désormais afficher la page web nouvellement crée dans le navigateur:
+
+[<video width="720" controls muted><source src="media/export-page-in-nav.mp4" type="video/mp4"></video>](media/export-page-in-nav.mp4)
