@@ -49,12 +49,12 @@ code.visualstudio.com/
 
 Puis,
 
-[<img src="media/vscode-dl-1.png" width="500"/>](media/vscode-dl-1.png)
+[<img src="media/vscode-dl-1.png" width="720"/>](media/vscode-dl-1.png)
 
 
 Enfin, complettez le deamon d'installation:
 
-[<video width="320" height="240" controls muted><source src="media/vscode_dl-setup.mp4" type="video/mp4"></video>](media/vscode_dl-setup.mp4)
+[<video width="720" controls muted><source src="media/vscode_dl-setup.mp4" type="video/mp4"></video>](media/vscode_dl-setup.mp4)
 
 
 Bravo ! VS Code est désormais installé sur votre machine.
@@ -67,8 +67,8 @@ Le HTML est le language de programation principal interprêté par le navigateur
 
 nous allons à présent préparer notre IDE:
 
-[<video width="320" height="240" controls muted><source src="media/vscode-prepare.mp4" type="video/mp4"></video>](media/vscode-prepare.mp4)
+[<video width="720"  controls muted><source src="media/vscode-prepare.mp4" type="video/mp4"></video>](media/vscode-prepare.mp4)
 
-Puis créer la base de notre page grace à l'auto complétion de vs code :
+Puis créer la base de notre page grace à l'auto complétion de vs code:
 
-[<video width="320" height="240" controls muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
+[<video width="720" controls muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
