@@ -37,13 +37,15 @@ Voici une liste non exhaustive d'IDEs:
 
 
 
+
+
 ## Installation de l'IDE Visual Studio Code
 
 pour commencer à créer notre site, nous allons donc avoir besoin d'un IDE. Pour ce faire, nous allons installer VS Code qui est un IDE directement développé par Microsoft et qui est pleinement capable de nous assister dans le développement de notre site.
 
 Pour ce faire, nous allons nous rendre à l'adrèsse suivante:
 
-[code.visualstudio.com](code.visualstudio.com/)
+code.visualstudio.com/
 
 Puis,
 
@@ -52,7 +54,7 @@ Puis,
 
 Enfin, complettez le deamon d'installation:
 
-[<video width="320" height="240" autoplay muted><source src="media/vscode-dl-setup.mp4" type="video/mp4"></video>](media/vscode-dl-setup.mp4)
+[<video width="320" height="240" control muted><source src="media/vscode_dl-setup.mp4" type="video/mp4"></video>](media/vscode_dl-setup.mp4)
 
 
 Bravo ! VS Code est désormais installé sur votre machine.
@@ -64,7 +66,9 @@ Bravo ! VS Code est désormais installé sur votre machine.
 Le HTML est le language de programation principal interprêté par le navigateur internet. En effet, quand nous nous connectons à un site internet, nous demandeont au serveur de nous envoyer plusieurs fichiers qui seront interprêtés par le navigateur pour afficher la page en question.
 
 nous allons à présent préparer notre IDE:
-[<video width="320" height="240" autoplay muted><source src="media/vscode-prepare.mp4" type="video/mp4"></video>](media/vscode-prepare.mp4)
+
+[<video width="320" height="240" control muted><source src="media/vscode-prepare.mp4" type="video/mp4"></video>](media/vscode-prepare.mp4)
 
 Puis créer la base de notre page grace à l'auto complétion de vs code :
-[<video width="320" height="240" autoplay muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
+
+[<video width="320" height="240" control muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
