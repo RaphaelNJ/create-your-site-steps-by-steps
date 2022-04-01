@@ -19,27 +19,38 @@ Voici une liste non exhaustive d'IDEs:
 - Notepad++ : multi language (Par Don Ho) Gratuit
 
 
+
+
+
 [<img src="media/JetBrains.png" width="250"/>](media/JetBrains.png)
 
-__JetBrains__
+*JetBrains*
 
 [<img src="media/Eclipse.png" width="250"/>](media/Eclipse.png)
 
-__Eclipse__
+*Eclipse*
 
 
 
+## Installation de l'IDE Visual Studio Code
+
+pour commencer à créer notre site, nous auront donc besoin d'un IDE. Pour ce faire, nous allons installer VS Code qui est un IDE directement développé par Microsoft et qui est pleinement capable de nous assister dans ce que nous souhaitons faire.
+
+Pour ce faire, nous allons nous rendre à l'adrèsse suivante:
+
+[url](code.visualstudio.com/)
+
+Puis,
+
+[<img src="media/vscode-dl-1.png" width="500"/>](media/vscode-dl-1.png)
 
 
+Enfin, complettez le deamon d'installation:
+
+[<video width="320" height="240" autoplay muted><source src="media/vscode-dl-setup.mp4" type="video/mp4"></video>]
 
 
-
-
-
-
-
-
-
+Bravo ! VS Code est installé sur votre machine.
 
 
 
