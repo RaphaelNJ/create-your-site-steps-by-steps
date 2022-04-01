@@ -19,11 +19,11 @@ Voici une liste non exhaustive d'IDEs:
 - Notepad++ : multi language (Par Don Ho) Gratuit
 
 
-![Image](media/JetBrains.png)
+[<img src="media/JetBrains.png" width="250"/>](media/JetBrains.png)
 
 __JetBrains__
 
-![Image](media/Eclipse.jpg)
+[<img src="media/Eclipse.png" width="250"/>](media/Eclipse.png)
 
 __Eclipse__
 
