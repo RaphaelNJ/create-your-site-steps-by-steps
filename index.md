@@ -19,11 +19,11 @@ Voici une liste non exhaustive d'IDEs:
 - Notepad++ : multi language (Par Don Ho) Gratuit
 
 
-![Image](https://sempreupdate.com.br/wp-content/uploads/2017/07/jetbrains_800x320.png)
+![Image](media/JetBrains.png)
 
 __JetBrains__
 
-![Image](https://th.bing.com/th/id/R.5b81c4ab3de0d583f364a29b63fca2df?rik=FcWGSXcV9AP%2bkw&pid=ImgRaw&r=0)
+![Image](media/Eclipse.jpg)
 
 __Eclipse__
 
@@ -50,7 +50,7 @@ En effet, quand nous nous connectons à un site internet, nous demandeont au ser
 envoyer plusieurs fichiers qui seront interprêtés par le navigateur pour afficher la page en question.
 
 nous allons à présent préparer notre IDE:
-![Alt text](media/vscode-prepare.mp4)
+![Video](media/vscode-prepare.mp4)
 
 Puis créer la base de notre page grace à l'auto complétion :
-![Alt text](media/html-createfile.mp4)
+![Video](media/html-createfile.mp4)
