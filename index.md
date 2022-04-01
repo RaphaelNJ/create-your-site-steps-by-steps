@@ -63,6 +63,7 @@ Bravo ! VS Code est désormais installé sur votre machine.
 
 ## Création de la page de notre site
 ### Introduction au HTML
+#### Créer notre premier fichier
 Le HTML est le language de programation principal interprêté par le navigateur internet. En effet, quand nous nous connectons à un site internet, nous demandeont au serveur de nous envoyer plusieurs fichiers qui seront interprêtés par le navigateur pour afficher la page en question.
 
 Nous allons à présent préparer notre IDE:
@@ -93,6 +94,12 @@ Le code :
 ```
 
 \
+er
+<br/><br/>
+e
+<br/>
+g
+-
 
 ```xml
 <!DOCTYPE html>
