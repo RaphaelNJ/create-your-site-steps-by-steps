@@ -26,21 +26,13 @@ Voici une liste non exhaustive d'IDEs:
 
 *JetBrains*
 
-
-
 [<img src="media/Eclipse.png" width="250"/>](media/Eclipse.png)
 
 *Eclipse*
 
-
-
 [<img src="media/vscode.png" width="250"/>](media/vscode.png.png)
 
 *Visual Studio Code*
-
-
-
-
 
 
 
@@ -231,3 +223,91 @@ Résultat :
 
 Le CSS est un language de programation à part qui viens se gréffer à notre fichier HTML par l'intermédiaire de la balise "style" qui se place dans le "head".
 Ce language vas nous permettre de mettre en forme notre page web (modifier la couleur, la taille, la police...)
+
+Créont le fichier CSS dans notre projet :
+
+[<video width="720" controls muted><source src="media/creation-du-fichier-css.mp4" type="video/mp4"></video>](media/creation-du-fichier-css.mp4)
+
+
+Pour intégrer le fichier à la page html, il faut ajouter la balise suivante dans le head :
+
+```xml
+<link rel="stylesheet" href="style.css">
+```
+
+Edditons maintenant le fichier CSS.
+
+un bloc CSS s'articule de la façon suivante :
+
+```
+*sélecteur CSS* {
+    *changements*;
+    *changements*;
+    *changements*;
+    ...
+}
+```
+
+Le sélecteur CSS vas dire au navigateur sur quels éléments HTML les changements deveront être éffectués. A noter qu'a la fin de chaques lignes, un ";" est placé.
+Pour mettre tout les "h1" en rouge par exemple, le code sera le suivant :
+
+
+```css
+h1 {
+    color : red;
+}
+```
+
+Pour mettre le fond d'écrant en noir et tout les éléments en blanc (sauf si autres présisions) : 
+
+```css
+body {
+    background-color: black;
+    color: white;
+}
+```
+
+Ici, tout les éléments compris dans la balise body (soit tout les éléments affichés) héritent des attributs de cette dèrnière, sauf présisions contraires.
+
+On a, dans notre fichier CSS :
+
+```css
+h1 {
+    color : red;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+```
+
+On a, dans notre fichier HTML :
+
+```xml
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Normal</p>
+    <p><strong>Gras</strong></p>
+    <p><u>Souligné</u></p>
+    <p><del>Barré</del></p>
+    <p><i>Italique</i></p>
+    <h1>Titre</h1>
+    <h2>Sous-Titre</h2>
+    <h2><strong>Sous-Titre + Gras<strong></h2>
+</body>
+</html>
+```
+
+
+Résultat :
+
+[<img src="media/css-1.png" width="720"/>](media/css-1.png)
