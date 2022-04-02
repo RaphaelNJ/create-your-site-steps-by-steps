@@ -1,16 +1,7 @@
 <script>
     document.getElementById("downloads").remove();
-    document.getElementById("container").remove();
+    document.getElementsByTagName("header")[0].innerText = "test";
 </script>
-
-<header>
-      <div class="container">
-        <a id="a-title" href="/steps-by-steps_pour-fafa/">
-          <h1>test</h1>
-        </a>
-        <h2></h2>
-      </div>
-    </header>
 
 # Créer Notre Site
 
