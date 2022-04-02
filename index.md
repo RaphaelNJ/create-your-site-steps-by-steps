@@ -18,8 +18,8 @@ Voici une liste non exhaustive d'IDEs :
 - IntelliJ IDEA : Destiné au Java (Par JetBrains) Payant
 - Notepad++ : multi langage (Par Don Ho) Gratuit
 
-
-
+[<br>](br)
+[<br>](br)
 
 [<img src="media/JetBrains.png" width="250"/>](media/JetBrains.png)
 
@@ -33,12 +33,16 @@ Voici une liste non exhaustive d'IDEs :
 
 *Visual Studio Code*
 
+[<br>](br)
+[<br>](br)
+[<br>](br)
+
 
 ## Installation de l'IDE Visual Studio Code
 
 Pour commencer à créer notre site, nous allons donc avoir besoin d'un IDE. Pour ce faire, nous allons installer VS Code qui est un IDE directement développé par Microsoft et qui est pleinement capable de nous assister dans le développement de notre site.
 
-Pour ce faire, nous allons nous rendre à [https://code.visualstudio.com](cette) adresse
+Pour ce faire, nous allons nous rendre à [cette](https://code.visualstudio.com) adresse
 
 Puis,
 
@@ -49,6 +53,9 @@ Enfin, complétez le deamon d’installation :
 [<video width="720" controls muted><source src="media/vscode_dl-setup.mp4" type="video/mp4"></video>](media/vscode_dl-setup.mp4)
 
 Visual Studio est désormais installé sur votre machine.
+
+[<br>](br)
+[<br>](br)
 
 
 ## Création de la page de notre site
@@ -63,6 +70,8 @@ Nous allons à présent préparer notre IDE au développement HTML :
 Puis créer la base de notre page grâce à l’auto-complétions de VS Code :
 
 [<video width="720" controls muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
+
+[<br>](br)
 
 #### Décomposition du code
 
@@ -132,6 +141,8 @@ Et sa fermeture :
 
 On constate aussi que les balises comme "meta", ne se ferment pas. Nous verrons d'autres balises comme celle-ci.
 
+[<br>](br)
+
 #### Ouverture du code dans le navigateur
 
 Nous allons à présent essayer d'afficher une simple ligne de texte dans notre page (donc dans la balise "body"). Pour ce faire, utilisons la balise "p" :
@@ -147,6 +158,8 @@ Chaque balise "p" représente une ligne à part entière.
 Nous pouvons désormais afficher la page web navigateur :
 
 [<video width="720" controls muted><source src="media/export-page-in-nav.mp4" type="video/mp4"></video>](media/export-page-in-nav.mp4)
+
+[<br>](br)
 
 #### A la découverte des balises HTML
 
@@ -170,6 +183,8 @@ La balise "strong" permet, elle d'afficher du texte en gras. La "i", en italique
 Résultat :
 
 [<img src="media/html-1.png" width="720"/>](media/html-1.png)
+
+---
 
 Voici d'autres balises utiles :
 
@@ -207,6 +222,7 @@ Résultat :
 
 [<img src="media/html-2.png" width="720"/>](media/html-2.png)
 
+[<br>](br)
 
 
 ### A la découverte du CSS
@@ -301,6 +317,8 @@ Résultat :
 
 Les sélecteurs CSS peuvent s'avérer, parfois, très limités. C'est pourquoi, nous allons découvrir deux autres moyens de sélection CSS :
 
+[<br>](br)
+
 #### Les class
 
 Class est un paramètre de balise HTML qui nous permettra de le sélectionner dans notre fichier CSS.
@@ -319,6 +337,8 @@ Dans le CSS, nous pouvons le sélectionner comme ceci :
 ```
 
 Un "." est placé devant le sélecteur pour préciser qu'il s'agit d'une classe et non d'un type d'élément.
+
+[<br>](br)
 
 #### Le style
 
@@ -400,6 +420,9 @@ Ici, font-size détermine la taille (px veut dire pixels mais d'autres unités d
 Résultat :
 
 [<img src="media/css-2.png" width="720"/>](media/css-2.png)
+
+[<br>](br)
+
 
 ### Quelques autres attributs CSS / éléments HTML
 
@@ -490,6 +513,8 @@ Résultat :
 
 [<img src="media/div.png" width="720"/>](media/div.png)
 
+[<br>](br)
+[<br>](br)
 
 
 # Publier Notre Site
@@ -501,7 +526,7 @@ GitHub propose une solution d'hébergement de sites statiques gratuite, très si
 
 Pour cela, il nous faut un compte GitHub.
 
-Rendez-vous sur [https://github.com/](cette) page
+Rendez-vous sur [cette](https://github.com/) page
 
 [<video width="720" controls muted><source src="media/sing-up-github.mp4" type="video/mp4"></video>](media/sing-up-github.mp4)
 
@@ -516,6 +541,13 @@ Une fois-là,
 
 Attendez quelques minutes le temps que le site se déploye. Puis rendez-vous sur l'adresse indiquée.
 Votre site web est désormais visible depuis le monde entier grâce à ce lien.
+[<br>](br)
+[<br>](br)
+[<br>](br)
+[<br>](br)
+[<br>](br)
+[<br>](br)
+[<br>](br)
 [<br>](br)
 [<br>](br)
 [<br>](br)
