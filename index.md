@@ -3,21 +3,20 @@
 ## Introduction à l'IDE
 
 Un IDE ("Integrated Development Environment" ou environnement de développement intégré) est un ensemble d'outils qui permet d'augmenter la productivité des développeurs. Il comporte un éditeur de texte destiné à la programmation ainsi que d'autres fonctions qui ne seront pas abordées ici.
-l'éditeur de texte compris dans l'IDE permet le plus souvent d'alerter le developeur d'une erreur dans son code. Ou encore, directement aider celui-ci en auto-complétant son code.
+L’éditeur de texte compris dans l'IDE permet le plus souvent d'alerter le développeur d'une erreur dans son code. Ou encore, directement aider celui-ci en auto-complétant son code.
 
-Certains environnements sont dédiés à un langage de programmation en particulier et/ou payants.
+Certains environnements sont dédiés à un langage de programmation en particulier et/ou sont payants.
 
-Voici une liste non exhaustive d'IDEs:
+Voici une liste non exhaustive d'IDEs :
 
-- PyCharm : Déstiné uniquement à Python (Par JetBrains) Payant
-- Visual Studio Code : multi language (Par Microsoft) Gratuit
-- Eclipse : Déstiné uniquement au Java (Par la Fondation Eclipse) Gratuit
-- PhpStorm : Déstiné uniquement au PHP (Par JetBrains) Payant
-- GoLand : Déstiné uniquement au Go (Par JetBrains) Payant
-- Sublime Text : multi language (Par Sublime HQ) Gratuit
-- IntelliJ IDEA : Déstiné au Java (Par JetBrains) Payant
-- Notepad++ : multi language (Par Don Ho) Gratuit
-
+- PyCharm : Destiné uniquement à Python (Par JetBrains) Payant
+- Visual Studio Code : multi langage (Par Microsoft) Gratuit
+- Eclipse : Destiné uniquement au Java (Par la Fondation Eclipse) Gratuit
+- PhpStorm : Destiné uniquement au PHP (Par JetBrains) Payant
+- GoLand : Destiné uniquement au Go (Par JetBrains) Payant
+- Sublime Text : multi langage (Par Sublime HQ) Gratuit
+- IntelliJ IDEA : Destiné au Java (Par JetBrains) Payant
+- Notepad++ : multi langage (Par Don Ho) Gratuit
 
 
 
@@ -35,56 +34,49 @@ Voici une liste non exhaustive d'IDEs:
 *Visual Studio Code*
 
 
-
 ## Installation de l'IDE Visual Studio Code
 
-pour commencer à créer notre site, nous allons donc avoir besoin d'un IDE. Pour ce faire, nous allons installer VS Code qui est un IDE directement développé par Microsoft et qui est pleinement capable de nous assister dans le développement de notre site.
+Pour commencer à créer notre site, nous allons donc avoir besoin d'un IDE. Pour ce faire, nous allons installer VS Code qui est un IDE directement développé par Microsoft et qui est pleinement capable de nous assister dans le développement de notre site.
 
-Pour ce faire, nous allons nous rendre à l'adrèsse suivante:
-
-[https://code.visualstudio.com](https://code.visualstudio.com)
+Pour ce faire, nous allons nous rendre à [https://code.visualstudio.com](cette) adresse
 
 Puis,
 
 [<img src="media/vscode-dl-1.png" width="720"/>](media/vscode-dl-1.png)
 
-
-Enfin, complettez le deamon d'installation:
+Enfin, complétez le deamon d’installation :
 
 [<video width="720" controls muted><source src="media/vscode_dl-setup.mp4" type="video/mp4"></video>](media/vscode_dl-setup.mp4)
 
-
-Bravo ! VS Code est désormais installé sur votre machine.
-
+Visual Studio est désormais installé sur votre machine.
 
 
 ## Création de la page de notre site
 ### Introduction au HTML
 #### Créer notre premier fichier
-Le HTML est le language de programation principal interprêté par le navigateur internet. En effet, quand nous nous connectons à un site internet, nous demandeont au serveur de nous envoyer plusieurs fichiers qui seront interprêtés par le navigateur pour afficher la page en question.
+Le HTML est le langage de programmation principal interprété par le navigateur internet. C’est en HTML que toutes les pages webs sont créées
 
-Nous allons à présent préparer notre IDE:
+Nous allons à présent préparer notre IDE au développement HTML :
 
-[<video width="720"  controls muted><source src="media/vscode-prepare.mp4" type="video/mp4"></video>](media/vscode-prepare.mp4)
+[<video width="720" controls muted><source src="media/vscode-prepare.mp4" type="video/mp4"></video>](media/vscode-prepare.mp4)
 
-Puis créer la base de notre page grace à l'auto complétion de vs code:
+Puis créer la base de notre page grâce à l’auto-complétions de VS Code :
 
 [<video width="720" controls muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
 
 #### Décomposition du code
 
-
 ```xml
 <!DOCTYPE html>
 ```
-Cette première ligne présise que le document qui vas suivre est un document HTML
+Cette première ligne précise que le document qui vas suivre est un document HTML
 
 ---
 
 ```xml
 <html lang="en">
 ```
-Celle-ci, ouvre la balise "html" et présise que la page est écrite en anglais (en : english). On peut modifier le "en" en "fr" (français).
+Celle-ci, ouvre la balise "html" et précise que la page est écrite en anglais (en : English). On peut modifier le "en" en "fr" (français).
 
 ---
 
@@ -96,15 +88,15 @@ Celle-ci, ouvre la balise "html" et présise que la page est écrite en anglais 
     <title>Document</title>
 </head>
 ```
-Ce bloc est encadré par la balise "head". elle s'ouvre par <head> et se ferme par </head>.
-Les informations comprisent dans cette balise présisent au navigateur des informations comme l'encodage de la page (``<meta charset="UTF-8">``) ou encore le titre de celle-ci (``<title>Document</title>``). A noter que le titre "Document" est compris dans la balise "title" (elle même comprise dans la balise "head", elle même comprise dans la balise "html"). Ce principe de "balisage" est déterminent dans le HTML.
-Pour ce qui est des autres informations présentent dans "head", elles ne sont pas utiles pour le moment.
+Ce bloc est encadré par la balise "head". Elle s'ouvre par <head> et se ferme par </head>.
+Les informations comprises dans cette balise donne au navigateur des informations comme l'encodage de la page (``<meta charset="UTF-8">``) ou encore le titre de celle-ci (``<title>Document</title>``). A noter que le titre "Document" est compris dans la balise "titre" (elle-même comprise dans la balise "head", elle-même comprise dans la balise "html"). Ce principe de "balisage" et "compris entre" est déterminent dans le HTML.
+Pour ce qui est des autres informations présentent dans "head", elles ne nous sont pas utiles pour le moment. Nous n’y toucherons pas
 
 [<img src="media/page-title.png" width="720"/>](media/page-title.png)
 
 *Titre de la page*
 
-Nous pouvons modifier le titre en "Page De Test". Cela donne:
+Nous pouvons modifier le titre en "Page De Test". Cela donne :
 
 ```xml
 <title>Page De Test</title>
@@ -118,7 +110,7 @@ Nous pouvons modifier le titre en "Page De Test". Cela donne:
 </body>
 ```
 
-la balise "body" comprend le "corps" de la page c'est-a-dire l'entiertée de la page affichée. C'est là que nous écriront notre code.
+La balise "body" comprend le "corps" de la page c'est-à-dire l'entièreté de la page affichée. C'est là que nous écrirons notre code.
 
 ---
 
@@ -126,7 +118,7 @@ la balise "body" comprend le "corps" de la page c'est-a-dire l'entiertée de la 
 </html>
 ```
 
-Cette ligne à pour but de refermer la balise "html". On note que l'ouverture d'une balise se fait par :
+Cette ligne a pour but de refermer la balise "html". On note que l'ouverture d'une balise se fait par :
 
 ```
 <*nom de la balise* *paramètre de la balise*>
@@ -142,7 +134,7 @@ On constate aussi que les balises comme "meta", ne se ferment pas. Nous verrons 
 
 #### Ouverture du code dans le navigateur
 
-Nous allons à présent esseyer d'afficher une simple ligne de texte dans notre page (donc dans la balise "body"). Pour ce faire, utilisons la balise "p":
+Nous allons à présent essayer d'afficher une simple ligne de texte dans notre page (donc dans la balise "body"). Pour ce faire, utilisons la balise "p" :
 
 ```xml
 <body>
@@ -152,16 +144,15 @@ Nous allons à présent esseyer d'afficher une simple ligne de texte dans notre 
 
 Chaque balise "p" représente une ligne à part entière.
 
-
-Nous pouvons désormais afficher la page web navigateur:
+Nous pouvons désormais afficher la page web navigateur :
 
 [<video width="720" controls muted><source src="media/export-page-in-nav.mp4" type="video/mp4"></video>](media/export-page-in-nav.mp4)
 
 #### A la découverte des balises HTML
 
-Nous connaîssons les balises "html", "head", "meta", "body" et "p". Mais ce ne sont pas les seules, loin de là...
+Nous connaissons les balises "html", "head", "meta", "body" et "p". Mais ce ne sont pas les seules, loin de là...
 
-La balise "strong" permet, elle d'afficher du texte en gras. La "i", en italique. La "u", soulignié. Et la "del", barré. Chaques balises peuvent biensûr être comprises dans d'autres:
+La balise "strong" permet, elle d'afficher du texte en gras. La "i", en italique. La "u", souligné. Et la "del", barré. Chaque balises peuvent bien sûr être comprises dans d'autres :
 
 ```xml
 <body>
@@ -218,16 +209,14 @@ Résultat :
 
 
 
-
 ### A la découverte du CSS
 
-Le CSS est un language de programation à part qui viens se gréffer à notre fichier HTML par l'intermédiaire de la balise "style" qui se place dans le "head".
-Ce language vas nous permettre de mettre en forme notre page web (modifier la couleur, la taille, la police...)
+Le CSS est un langage de programmation à part qui viens se greffer à notre fichier HTML par l'intermédiaire de la balise "style" qui se place dans le "head".
+Ce langage vas nous permettre de mettre en forme notre page web (modifier la couleur, la taille, la police...)
 
-Créont le fichier CSS dans notre projet :
+Créons le fichier CSS dans notre projet :
 
 [<video width="720" controls muted><source src="media/creation-du-fichier-css.mp4" type="video/mp4"></video>](media/creation-du-fichier-css.mp4)
-
 
 Pour intégrer le fichier à la page html, il faut ajouter la balise suivante dans le head :
 
@@ -235,22 +224,21 @@ Pour intégrer le fichier à la page html, il faut ajouter la balise suivante da
 <link rel="stylesheet" href="style.css">
 ```
 
-Edditons maintenant le fichier CSS.
+Éditons maintenant le fichier CSS.
 
-un bloc CSS s'articule de la façon suivante :
+Un bloc CSS s'articule de la façon suivante :
 
 ```
 *sélecteur CSS* {
-    *changements*;
-    *changements*;
-    *changements*;
+    *attributs*;
+    *attributs*;
+    *attributs*;
     ...
 }
 ```
 
-Le sélecteur CSS vas dire au navigateur sur quels éléments HTML les changements deveront être éffectués. A noter qu'a la fin de chaques lignes, un ";" est placé.
-Pour mettre tout les "h1" en rouge par exemple, le code sera le suivant :
-
+Le sélecteur CSS vas dire au navigateur sur quels éléments HTML les changements devront être effectués. A noter qu'à la fin de chaque lignes, un ";" est placé.
+Pour mettre tous les "h1" en rouge, le code sera le suivant :
 
 ```css
 h1 {
@@ -258,7 +246,7 @@ h1 {
 }
 ```
 
-Pour mettre le fond d'écrant en noir et tout les éléments en blanc (sauf si autres présisions) : 
+Pour mettre le fond d'écran en noir et tous les éléments en blanc (sauf si précisions contraires) : 
 
 ```css
 body {
@@ -267,7 +255,7 @@ body {
 }
 ```
 
-Ici, tout les éléments compris dans la balise body (soit tout les éléments affichés) héritent des attributs de cette dèrnière, sauf présisions contraires.
+Ici, tous les éléments compris dans la balise body (soit tous les éléments affichés) héritent des attributs de cette dernière, sauf précisions contraires.
 
 On a, dans notre fichier CSS :
 
@@ -307,17 +295,15 @@ On a, dans notre fichier HTML :
 </html>
 ```
 
-
 Résultat :
 
 [<img src="media/css-1.png" width="720"/>](media/css-1.png)
 
-
-Les Selecteurs CSS peuvent s'avérer, parfois, très limités. C'est pour quoi, nous allons découvrir deux autres moyens de sélection CSS:
+Les sélecteurs CSS peuvent s'avérer, parfois, très limités. C'est pourquoi, nous allons découvrir deux autres moyens de sélection CSS :
 
 #### Les class
 
-class est un paramètre de balise HTML qui nous permettra de le sélectionner dans notre fichier CSS.
+Class est un paramètre de balise HTML qui nous permettra de le sélectionner dans notre fichier CSS.
 On l'écrit comme ceci :
 
 ```xml
@@ -332,11 +318,11 @@ Dans le CSS, nous pouvons le sélectionner comme ceci :
 }
 ```
 
-Un "." est placé devant le selecteur pour présiser qu'il s'agit d'une classe et non d'un type d'élément.
+Un "." est placé devant le sélecteur pour préciser qu'il s'agit d'une classe et non d'un type d'élément.
 
 #### Le style
 
-style aussi est un paramètre de balise HTML. Il injècte directement du code CSS dans notre balise :
+Style aussi est un paramètre de balise HTML. Il injecte directement du code CSS dans notre balise :
 
 ```xml
 <p style="color:green;">Normal</p>
@@ -400,10 +386,9 @@ h2 strong {
     color: aqua;
 }
 ```
-Ici, font-size détermine la taille (px veut dire pixels mais d'autres unitées de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions: haut, bas, gauche, droite) de notre élément.
+Ici, font-size détermine la taille (px veut dire pixels mais d'autres unités de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions : haut, bas, gauche, droite) de notre élément.
 
-
-|Attribut CSS  |Utilitée                        |
+|Attribut CSS  |Utilité                        |
 |--------------|--------------------------------|
 |padding-left  |Marge à gauche                  |
 |padding-top   |Marge en haut                   |
@@ -412,25 +397,22 @@ Ici, font-size détermine la taille (px veut dire pixels mais d'autres unitées 
 |padding       |Marge dans toutes les directions|
 
 
-
 Résultat :
 
 [<img src="media/css-2.png" width="720"/>](media/css-2.png)
 
+### Quelques autres attributs CSS / éléments HTML
 
-### Quelsques autres attributs CSS / éléments HTML
-
-Les div sont des éléments html qui se comportent comme des boîtes. En effet, nous pouvons renger à l'interieur de celles ci du texte, des images, des titres, des vidéos... et organiser ces boîtes dans la page. A noter que des div peuvent en contenir d'autres, c'est d'ailleurs souvent le cas dans des grands sites.
+Les div sont des éléments html qui se comportent comme des boîtes. En effet, nous pouvons ranger à l'intérieur de celles-ci du texte, des images, des titres, des vidéos... et organiser ces boîtes dans la page. A noter que des div peuvent en contenir d'autres, c'est d'ailleurs souvent le cas dans des grands sites.
 
 Avent de travailler avec les div, quelques attributs CSS sont à voir :
 
-|Attribut CSS  |Utilitée                        |
+|Attribut CSS  |Utilité                        |
 |--------------|--------------------------------|
-|margin  |Pareil que padding (il existe des margin-left, margin-right...) à l'exeption du fait que les paddings sont des marges interieurs et les margins des marges éxterieur. cette distinction deviens imortante quand on travaille avec des div|
-|border|Définit les bordures. syntaxe : "border : \*taille* \*format* \*couleur*;"|
+|margin  |Pareil que padding (il existe des margin-left, margin-right...) à l'exception du fait que les paddings sont des marges intérieurs et les margins des marges extérieur. Cette distinction devient importante quand on travaille avec des div|
+|border|Définit les bordures. Syntaxe : "border : \*taille* \*format* \*couleur*;"|
 |width|Longeur de l'élément|
 |height|Hauteur de l'élément|
-
 
 
 Page de présentation des divs :
@@ -492,7 +474,7 @@ Code HTML :
 </html>
 ```
 
-Code CSS:
+Code CSS :
 
 ```css
 div {
@@ -510,29 +492,33 @@ Résultat :
 
 
 
-
 # Publier Notre Site
 
-## Publier notre site grâce à github pages
+## Publier notre site grâce à GitHub pages
 
-GitHub est *la* platforme de stokage de code pour développeur. Il agit comme un google drive, mais propose des outils dédiés et à une experiance optimisé pour le développement d'applications de tout languages de programation.
+GitHub est *la* plateforme de stockage de code pour développeur. Il agit comme un google drive, mais propose des outils dédiés et à une expérience optimisée pour le développement d'applications de tout langages de programmation.
 GitHub propose une solution d'hébergement de sites statiques gratuite, très simple et optimisé pour les débutants.
 
 Pour cela, il nous faut un compte GitHub.
 
-Rendez-vous sur la page : [https://github.com/](https://github.com/)
+Rendez-vous sur [https://github.com/](cette) page
 
 [<video width="720" controls muted><source src="media/sing-up-github.mp4" type="video/mp4"></video>](media/sing-up-github.mp4)
 
-Répondez aux dèrnières questions.
+Répondez aux dernières questions.
 Vous devriez arriver sur cette page ci :
 [<img src="media/home-page-github.png" width="720"/>](media/home-page-github.png)
 
-Une fois là,
+Une fois-là,
 
 [<video width="720" controls muted><source src="media/create-repo.mp4" type="video/mp4"></video>](media/create-repo.mp4)
 
 
-
-Attendez quelsques minutes le temps que le site se déploye. et rendez-vous sur l'addrèsse indiquée.
+Attendez quelques minutes le temps que le site se déploye. Puis rendez-vous sur l'adresse indiquée.
 Votre site web est désormais visible depuis le monde entier grâce à ce lien.
+[<br>](br)
+[<br>](br)
+[<br>](br)
+[<br>](br)
+[<br>](br)
+[<br>](br)
