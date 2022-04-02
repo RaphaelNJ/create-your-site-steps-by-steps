@@ -74,37 +74,119 @@ Puis créer la base de notre page grace à l'auto complétion de vs code:
 
 [<video width="720" controls muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
 
-#### Décomposont notre code
+#### Décomposition du code
 
-Le code :
 
 ```xml
 <!DOCTYPE html>
+```
+Cette première ligne présise que le document qui vas suivre est un document HTML
+
+---
+
+```xml
 <html lang="en">
+```
+Celle-ci, ouvre la balise "html" et présise que la page est écrite en anglais (en : english). On peut modifier le "en" en "fr" (français).
+
+---
+
+```xml
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+```
+Ce bloc est encadré par la balise "head". elle s'ouvre par <head> et se ferme par </head>.
+Les informations comprisent dans cette balise présisent au navigateur des informations comme l'encodage de la page (``<meta charset="UTF-8">``) ou encore le titre de celle-ci (``<title>Document</title>``). A noter que le titre "Document" est compris dans la balise "title" (elle même comprise dans la balise "head", elle même comprise dans la balise "html"). Ce principe de "balisage" est déterminent dans le HTML.
+Pour ce qui est des autres informations présentent dans "head", elles ne sont pas utiles pour le moment.
+
+[<img src="media/page-title.png" width="720"/>](media/page-title.png)
+*Titre de la page*
+
+Nous pouvons modifier le titre en "Page De Test". Cela donne:
+
+```xml
+<title>Page De Test</title>
+```
+
+---
+
+```xml
 <body>
-    <p>Hello World !</p>
+    
 </body>
+```
+
+la balise "body" comprend le "corp" de la page c'est-a-dire l'entiertée de la page affichée. C'est là que nous écriront notre code.
+
+---
+
+```xml
 </html>
 ```
 
-\
-er
-<br/><br/>
-e
-<br/>
-g
--
+Cette ligne à pour but de refermer la balise "html". On note que l'ouverture d'une balise se fait par :
 
 ```xml
-<!DOCTYPE html>
+<*nom de la balise* *paramètre de la balise*>
 ```
 
-Nous pouvons désormais afficher la page web nouvellement crée dans le navigateur:
+Et sa fermeture :
+
+```xml
+</*nom de la balise*>
+```
+
+On constate aussi que les balises comme "meta", ne se ferment pas. Nous verrons d'autres balises comme celle-ci.
+
+#### Ouverture du code dans le navigateur
+
+Nous allons à présent esseyer d'afficher une simple ligne de texte dans notre page (donc dans la balise "body"). Pour ce faire, utilisons la balise "p":
+
+```xml
+<body>
+    <p>Hello World !</p>
+</body>
+```
+
+Chaque balise "p" représente une ligne à part entière.
+
+
+Nous pouvons désormais afficher la page web navigateur:
 
 [<video width="720" controls muted><source src="media/export-page-in-nav.mp4" type="video/mp4"></video>](media/export-page-in-nav.mp4)
+
+#### A la découverte des balises HTML
+
+Nous avons appris la balise "html", "head", "meta", "body" et "p". Mais ce ne sont pas les seules, loin de là...
+
+La balise "strong" permet, elle d'afficher du texte en gras. La "i", en italique. La "u", soulignié. et la "del", barré. Chaques balises peuvent biensûr être comprises dans d'autres:
+
+```xml
+<body>
+    <p>Hello World !</p>
+    <p>Ceci est un saut de ligne</p>
+    <p><strong>Ce texte est écrit en gras</strong></p>
+    <p>Ce texte là est quand à lui souligné : <u>je suis un texte souligné</u></p>
+    <p>Nous <i>pouvons</i> utiliser <strong>les balises comme <del>ceci</del></strong></p>
+    <strong><i><u><p>en se rappelant que</p>
+        <p>les balises peuvent</p>
+        <p>être comprises dans d'autres</p></u></i></strong>
+</body>
+```
+
+Résultat :
+
+[<img src="media/html-1.png" width="720"/>](media/html-1.png)
+
+Voici d'autres balises utiles :
+
+[<img src="media/html-2.png" width="720"/>](media/html-2.png)
+
+#### Le CSS
+
+Le CSS est un language de programation à part qui viens se gréffer à notre fichier HTML par l'intermédiaire de la balise "style" qui se place dans le "head".
+Ce language vas nous permettre de mettre en forme notre page web (modifier la couleur, la taille, la police...)
