@@ -42,7 +42,7 @@ pour commencer à créer notre site, nous allons donc avoir besoin d'un IDE. Pou
 
 Pour ce faire, nous allons nous rendre à l'adrèsse suivante:
 
-code.visualstudio.com/
+[code.visualstudio.com/](code.visualstudio.com)
 
 Puis,
 
@@ -520,7 +520,7 @@ GitHub propose une solution d'hébergement de sites statiques gratuite, très si
 
 Pour cela, il nous faut un compte GitHub.
 
-Rendez-vous sur la page github.com/
+Rendez-vous sur la page : [github.com/](github.com)
 
 [<video width="720" controls muted><source src="media/sing-up-github.mp4" type="video/mp4"></video>](media/sing-up-github.mp4)
 
@@ -535,4 +535,6 @@ Une fois là,
 
 
 Attendez quelsques minutes le temps que le site se déploye. et rendez-vous sur l'addrèsse indiquée.
-Votre site web est désormais visible depuis le monde entier grâce à ce lien. 
+Votre site web est désormais visible depuis le monde entier grâce à ce lien.
+
+--------
