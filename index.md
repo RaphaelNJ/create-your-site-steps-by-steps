@@ -1,6 +1,6 @@
 <script>
     document.getElementById("downloads").remove();
-    document.getElementsByTagName("header")[0].innerText = "test";
+    document.getElementsByTagName("header")[0].innerHTML = "test";
 </script>
 
 # Créer Notre Site
