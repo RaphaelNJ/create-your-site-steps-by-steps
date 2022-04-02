@@ -548,7 +548,11 @@ Attendez quelques minutes le temps que le site se déploye. Puis rendez-vous sur
 Votre site web est désormais visible depuis le monde entier grâce à ce lien.
 
 <footer>
-    <div>
-        <h3 style="text-align: center; margin-top : 7%">Merci d'avoir lu</h3>
+    <div style="text-align: center; margin-top : 10%">
+        <h6 style="color: #b5e853">&nbsp;/&nbsp;\------------------------,&nbsp;</h6>
+        <h6 style="color: #b5e853">&nbsp;\_,|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;</h6>
+        <h6 style="color: #b5e853">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Merci&nbsp;d'avoir&nbsp;lu&nbsp;&nbsp;&nbsp;|&nbsp;</h6>
+        <h6 style="color: #b5e853">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;,----------------------</h6>
+        <h6 style="color: #b5e853">&nbsp;&nbsp;&nbsp;&nbsp;\_/_____________________/&nbsp;</h6>
     </div>
 </footer>
