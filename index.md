@@ -104,6 +104,7 @@ Les informations comprisent dans cette balise présisent au navigateur des infor
 Pour ce qui est des autres informations présentent dans "head", elles ne sont pas utiles pour le moment.
 
 [<img src="media/page-title.png" width="720"/>](media/page-title.png)
+
 *Titre de la page*
 
 Nous pouvons modifier le titre en "Page De Test". Cela donne:
@@ -120,7 +121,7 @@ Nous pouvons modifier le titre en "Page De Test". Cela donne:
 </body>
 ```
 
-la balise "body" comprend le "corp" de la page c'est-a-dire l'entiertée de la page affichée. C'est là que nous écriront notre code.
+la balise "body" comprend le "corps" de la page c'est-a-dire l'entiertée de la page affichée. C'est là que nous écriront notre code.
 
 ---
 
@@ -130,13 +131,13 @@ la balise "body" comprend le "corp" de la page c'est-a-dire l'entiertée de la p
 
 Cette ligne à pour but de refermer la balise "html". On note que l'ouverture d'une balise se fait par :
 
-```xml
+```
 <*nom de la balise* *paramètre de la balise*>
 ```
 
 Et sa fermeture :
 
-```xml
+```
 </*nom de la balise*>
 ```
 
@@ -161,9 +162,9 @@ Nous pouvons désormais afficher la page web navigateur:
 
 #### A la découverte des balises HTML
 
-Nous avons appris la balise "html", "head", "meta", "body" et "p". Mais ce ne sont pas les seules, loin de là...
+Nous connaîssons les balises "html", "head", "meta", "body" et "p". Mais ce ne sont pas les seules, loin de là...
 
-La balise "strong" permet, elle d'afficher du texte en gras. La "i", en italique. La "u", soulignié. et la "del", barré. Chaques balises peuvent biensûr être comprises dans d'autres:
+La balise "strong" permet, elle d'afficher du texte en gras. La "i", en italique. La "u", soulignié. Et la "del", barré. Chaques balises peuvent biensûr être comprises dans d'autres:
 
 ```xml
 <body>
@@ -184,7 +185,42 @@ Résultat :
 
 Voici d'autres balises utiles :
 
+```xml
+<body>
+    <p>La balise suivante est un saut de ligne : </p>
+    <br>
+    <p>*saut de ligne*</p>
+    <p>La balise suivante est une ligne de séparation : </p>
+    <hr>
+    <p>*ligne séparée*</p>
+    <h1>Titre</h1>
+    <h2>Sous-Titre</h2>
+    <h3>Sous-Sous-Titre</h3>
+    <h4>Sous-Sous-Sous-Titre</h4>
+    <h6>Plus petit titre possible</h6>
+    <br>
+    <p>la balise suivante est une image. Le paramètre "src" est le chemin d'accès/lien de cette image. Le paramètre "width" contrôle la largeur de l'image.</p>
+    <img width=250px src="https://th.bing.com/th/id/R.9228f542564a699b423ed11b590a6254?rik=jcOgHzzbkzxhqA&pid=ImgRaw&r=0">
+    <ul>Ceci</ul>
+    <ul>Sont</ul>
+    <ul>Des</ul>
+    <ul>Puce</ul>
+    <ul>D'énumération</ul>
+    <br>
+    <li>Là,</li>
+    <li>Les</li>
+    <li>Puces</li>
+    <li>Sont</li>
+    <li>Visibles</li>
+</body>
+```
+
+Résultat :
+
 [<img src="media/html-2.png" width="720"/>](media/html-2.png)
+
+
+
 
 #### Le CSS
 
