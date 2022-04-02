@@ -1,4 +1,7 @@
-<script>alert("test");</script>
+<script>
+    document.getElementById("downloads").remove();
+    document.getElementsByTagName("h1").innerHTML = "test";
+</script>
 
 # Créer Notre Site
 
