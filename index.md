@@ -1,4 +1,4 @@
-[script](<script>alert("test");</script>)
+<script>alert("test");</script>
 
 # Créer Notre Site
 
