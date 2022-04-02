@@ -1,6 +1,6 @@
-# Introduction A l'IDE
+# Créer les pages de notre site
 
-## Quesqu'un IDE ?
+## Introduction à l'IDE
 
 Un IDE ("Integrated Development Environment" ou environnement de développement intégré) est un ensemble d'outils qui permet d'augmenter la productivité des développeurs. Il comporte un éditeur de texte destiné à la programmation ainsi que d'autres fonctions qui ne seront pas abordées ici.
 l'éditeur de texte compris dans l'IDE permet le plus souvent d'alerter le developeur d'une erreur dans son code. Ou encore, directement aider celui-ci en auto-complétant son code.
@@ -26,14 +26,19 @@ Voici une liste non exhaustive d'IDEs:
 
 *JetBrains*
 
+
+
 [<img src="media/Eclipse.png" width="250"/>](media/Eclipse.png)
 
 *Eclipse*
 
 
+
 [<img src="media/vscode.png" width="250"/>](media/vscode.png.png)
 
 *Visual Studio Code*
+
+
 
 
 
@@ -222,7 +227,7 @@ Résultat :
 
 
 
-#### Le CSS
+### A la découverte du CSS
 
 Le CSS est un language de programation à part qui viens se gréffer à notre fichier HTML par l'intermédiaire de la balise "style" qui se place dans le "head".
 Ce language vas nous permettre de mettre en forme notre page web (modifier la couleur, la taille, la police...)
