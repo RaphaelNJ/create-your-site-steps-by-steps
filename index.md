@@ -311,3 +311,108 @@ On a, dans notre fichier HTML :
 Résultat :
 
 [<img src="media/css-1.png" width="720"/>](media/css-1.png)
+
+
+Les Selecteurs CSS peuvent s'avérer, parfois, très limités. C'est pour quoi, nous allons découvrir deux autres moyens de sélection CSS:
+
+#### Les class
+
+class est un paramètre de balise HTML qui nous permettra de le sélectionner dans notre fichier CSS.
+On l'écrit comme ceci :
+
+```xml
+<p class="leNomDeMaClass">Normal</p>
+```
+
+Dans le CSS, nous pouvons le sélectionner comme ceci :
+
+```css
+.leNomDeMaClass {
+    color : green;
+}
+```
+
+Un "." est placé devant le selecteur pour présiser qu'il s'agit d'une classe et non d'un type d'élément.
+
+#### Le style
+
+style aussi est un paramètre de balise HTML. Il injècte directement du code CSS dans notre balise :
+
+```xml
+<p style="color:green;">Normal</p>
+```
+
+Nous pouvons combiner ces 3 méthodes de sélections :
+
+Code HTML :
+
+```xml
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro au HTML/CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p style="color:red;">avec style de couleur rouge</p>
+    <p><strong>Gras</strong></p>
+    <p><u>Souligné</u></p>
+    <p><del>Barré</del></p>
+    <p><del class="vert">Barré avec la classe "vert"</del></p>
+    <p><i class="vert">Italique avec style de taille de texte 50px (pixels) et classe "vert" </i></p>
+    <h1>Titre</h1>
+    <h2>Sous-Titre</h2>
+    <h2><strong>Sous-Titre + Gras<strong></h2>
+    <h1 class="big">Titre avec classe "big"</h1>
+</body>
+</html>
+```
+
+Code CSS :
+
+```css
+h1 {
+    color : red;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.vert {
+    color : green;
+}
+
+del.vert {
+    font-size: 50px;
+}
+
+.big {
+    font-size: 80px;
+    padding : 60px;
+}
+
+h2 strong {
+    color: aqua;
+}
+```
+Ici, font-size détermine la taille (ici px veut dire pixels mais d'autres unitées de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions: haut, bas, gauche, droite) de notre élément.
+
++-----------------------------+
+|padding-left  |Marge à gauche|
++-----------------------------+
+|padding-top   |Marge en haut |
++-----------------------------+
+|padding-bottom|Marge en bas  |
++-----------------------------+
+|padding-right |Marge à droite|
++-----------------------------+
+
+
+Résultat :
+
+[<img src="media/css-2.png" width="720"/>](media/css-2.png)
