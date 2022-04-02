@@ -400,7 +400,8 @@ h2 strong {
     color: aqua;
 }
 ```
-Ici, font-size détermine la taille (ici px veut dire pixels mais d'autres unitées de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions: haut, bas, gauche, droite) de notre élément.
+Ici, font-size détermine la taille (px veut dire pixels mais d'autres unitées de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions: haut, bas, gauche, droite) de notre élément.
+
 
 |Attribut CSS  |Utilitée                        |
 |--------------|--------------------------------|
@@ -408,10 +409,101 @@ Ici, font-size détermine la taille (ici px veut dire pixels mais d'autres unit�
 |padding-top   |Marge en haut                   |
 |padding-bottom|Marge en bas                    |
 |padding-right |Marge à droite                  |
-|padding-right |Marge dans toutes les directions|
+|padding       |Marge dans toutes les directions|
 
 
 
 Résultat :
 
 [<img src="media/css-2.png" width="720"/>](media/css-2.png)
+
+
+### Quelsques autres attributs CSS / éléments HTML
+
+Les div sont des éléments html qui se comportent comme des boîtes. En effet, nous pouvons renger à l'interieur de celles ci du texte, des images, des titres, des vidéos... et organiser ces boîtes dans la page. A noter que des div peuvent en contenir d'autres, c'est d'ailleurs souvent le cas dans des grands sites.
+
+Avent de travailler avec les div, quelques attributs CSS sont à voir :
+
+|Attribut CSS  |Utilitée                        |
+|--------------|--------------------------------|
+|margin  |Pareil que padding (il existe des margin-left, margin-right...) à l'exeption du fait que les paddings sont des marges interieurs et les margins des marges éxterieur. cette distinction deviens imortante quand on travaille avec des div|
+|border|Définit les bordures. syntaxe : "border : \*taille* \*format* \*couleur*;"|
+|width|Longeur de l'élément|
+|height|Hauteur de l'élément|
+
+
+
+Page de présentation des divs :
+
+Code HTML :
+
+```xml
+<!DOCTYPE html>
+<html lang="fr"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro au HTML/CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Ceci est un texte compris dans aucune div</p>
+    <p>Les div sont</p>
+    <p>ici :</p>
+    <div style="border : 2px solid red;">
+        <p>Cette div a une bordure rouge</p>
+        <p>qui mesure 2 pixels d'épaisseur</p>
+        <p>Toutes les divs sur cette page comportent des bordures pour être plus évidentes à la lecture de cette page.</p>
+        <p>Mais rien ne vous empêche de les omettre</p>
+        <div style="border : 10px dotted blue;">
+            <p>Cette div comporte plusieurs divs à la fois</p>
+            
+            
+            <div style="border : 10px dashed slateblue; background-color: black; color: aliceblue; padding-top : 10em">
+                <p>Cette div à un fond de couleur noire.</p>
+                <p>Et une marge intérieure (padding) de 10 em.</p>
+                
+            </div>
+            <hr>
+            <div style="border : 1em double salmon; margin-right: 60%; text-align: center;">
+                <p>Cette div remplie 40% de la place en longueur.</p>
+                <p>Soit une marge extérieure (margin) de 60%</p>
+                <p>La bordure de cette div est « double » c’est-à-dire que l’on voit deux bordures.</p>
+            <p>Mais c’en est qu’une seule.</p></div>
+            <br>
+            <br>
+            <div style="border : 1em outset violet; margin-left: 50em;">
+                <p>Marge éxterieure gauche (margin) de 50em.</p>
+                <p>L’image qui va suivre n’est pas dans une div indépendante.</p>
+                <img width="250px" style="border : 1em solid purple;" src="https://th.bing.com/th/id/R.9228f542564a699b423ed11b590a6254?rik=jcOgHzzbkzxhqA&amp;pid=ImgRaw&amp;r=0">
+                <p>L’attribut bordure lui a directement été injectée.</p>
+            </div>
+            <br>
+            <br>
+            <div style="border-bottom: 4mm solid black; border-top: 4mm dashed darkorange; border-right: 10vh solid rgb(41, 75, 211); width: 10%; height: 300px;">
+                <p>Nous pouvons aussi gérer les côtés des bordures de façon indépendante.</p>
+                
+                <p>La div a une longueur de 10% et une hauteur de 300 pixels.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+```
+
+Code CSS:
+
+```css
+div {
+    padding : 50px;
+}
+
+p {
+    font-size: xx-large;
+}
+```
+
+Résultat :
+
+[<img src="media/div.png" width="720"/>](media/div.png)
