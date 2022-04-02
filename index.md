@@ -1,6 +1,6 @@
 <script>
     document.getElementById("downloads").remove();
-    document.getElementsByTagName("h1")[0].innerHTML = "test";
+    document.getElementsByTagName("h1")[0].innerHTML = "Création d'un site étapes par étapes";
 </script>
 
 # Créer Notre Site
@@ -559,3 +559,8 @@ Votre site web est désormais visible depuis le monde entier grâce à ce lien.
 [<br>](br)
 [<br>](br)
 [<br>](br)
+<footer>
+    <div class="container">
+        <h3>Fin de document</h3>
+    </div>
+</footer>
