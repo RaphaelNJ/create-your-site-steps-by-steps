@@ -1,4 +1,4 @@
-# Créer les pages de notre site
+# Créer Notre Site
 
 ## Introduction à l'IDE
 
@@ -507,3 +507,32 @@ p {
 Résultat :
 
 [<img src="media/div.png" width="720"/>](media/div.png)
+
+
+
+
+# Publier Notre Site
+
+## Publier notre site grâce à github pages
+
+GitHub est *la* platforme de stokage de code pour développeur. Il agit comme un google drive, mais propose des outils dédiés et à une experiance optimisé pour le développement d'applications de tout languages de programation.
+GitHub propose une solution d'hébergement de sites statiques gratuite, très simple et optimisé pour les débutants.
+
+Pour cela, il nous faut un compte GitHub.
+
+Rendez-vous sur la page github.com/
+
+[<video width="720" controls muted><source src="media/sing-up-github.mp4" type="video/mp4"></video>](media/sing-up-github.mp4)
+
+Répondez aux dèrnières questions.
+Vous devriez arriver sur cette page ci :
+[<img src="media/home-page-github.png" width="720"/>](media/home-page-github.png)
+
+Une fois là,
+
+[<video width="720" controls muted><source src="media/create-repo.mp4" type="video/mp4"></video>](media/create-repo.mp4)
+
+
+
+Attendez quelsques minutes le temps que le site se déploye. et rendez-vous sur l'addrèsse indiquée.
+Votre site web est désormais visible depuis le monde entier grâce à ce lien. 
