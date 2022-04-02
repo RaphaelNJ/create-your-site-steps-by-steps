@@ -402,15 +402,14 @@ h2 strong {
 ```
 Ici, font-size détermine la taille (ici px veut dire pixels mais d'autres unitées de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions: haut, bas, gauche, droite) de notre élément.
 
-|--------------|--------------|
-|padding-left  |Marge à gauche|
-|--------------|--------------|
-|padding-top   |Marge en haut |
-|--------------|--------------|
-|padding-bottom|Marge en bas  |
-|--------------|--------------|
-|padding-right |Marge à droite|
-|--------------|--------------|
+|Attribut CSS  |Utilitée                        |
+|--------------|--------------------------------|
+|padding-left  |Marge à gauche                  |
+|padding-top   |Marge en haut                   |
+|padding-bottom|Marge en bas                    |
+|padding-right |Marge à droite                  |
+|padding-right |Marge dans toutes les directions|
+
 
 
 Résultat :
