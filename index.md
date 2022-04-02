@@ -546,21 +546,9 @@ Une fois-là,
 
 Attendez quelques minutes le temps que le site se déploye. Puis rendez-vous sur l'adresse indiquée.
 Votre site web est désormais visible depuis le monde entier grâce à ce lien.
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
-[<br>](br)
+
 <footer>
-    <div class="container">
-        <h3>Fin de document</h3>
+    <div>
+        <h3 style="text-align: center; margin-top : 7%">Merci d'avoir lu</h3>
     </div>
 </footer>
