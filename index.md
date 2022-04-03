@@ -1,3 +1,9 @@
+<style>
+    img, video {
+        align: center;
+    }
+</style>
+
 <script>
     document.getElementById("downloads").remove();
     document.getElementsByTagName("h1")[0].innerHTML = "Création d'un site étapes par étapes";
@@ -559,7 +565,7 @@ Pour installer Python, rendez-vous sur [ce site](https://www.python.org/download
 Suivez les procédures d'installation.
 Ouvrez Le CMD:
 
-[<img src="open-cmd.png" width="720"/>](media/open-cmd.png)
+[<img src="media/open-cmd.png" width="720"/>](media/open-cmd.png)
 
 Une fenêtre comme celle-ci devrait apparaître:
 
