@@ -5,11 +5,31 @@
         margin-right: auto;
         text-align: center;
     }
+
+    .img-window {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .img-window img {
+        max-width: 80vw;
+        max-height: 80vh;
+    }
 </style>
 
 <script>
     document.getElementById("downloads").remove();
     document.getElementsByTagName("h1")[0].innerHTML = "Création d'un site étapes par étapes";
+    
 </script>
 
 # Créer Notre Site
@@ -535,8 +555,6 @@ Résultat :
 <br>
 <br>
 
-<h2>Reporting a security issue<a class="headerlink" href="#reporting-a-security-issue" title="Permalink to this headline">¶</a></h2>
-
 
 # Publier Notre Site
 
@@ -640,4 +658,21 @@ en cours de rédaction...
         <h6 style="color: #b5e853">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;,----------------------</h6>
         <h6 style="color: #b5e853">&nbsp;&nbsp;&nbsp;&nbsp;\_/_____________________/&nbsp;</h6>
     </div>
-</footer>
+</footer><script>
+    let imgs = document.getElementsByTagName("img");
+    function closeImg() {
+        document.querySelector(".img-window").remove();
+    }
+    Array.from(imgs).forEach(b => {
+    b.addEventListener("click", function() {
+        let container = document.body;
+        let imgWindow = document.createElement("div");
+        container.appendChild(imgWindow);
+        imgWindow.setAttribute("class", "img-window");
+        imgWindow.setAttribute("onclick", "closeImg()");
+        let Img = document.createElement("img");
+        imgWindow.appendChild(Img);
+        Img.setAttribute("src", b.src)
+        });
+    });
+</script>
