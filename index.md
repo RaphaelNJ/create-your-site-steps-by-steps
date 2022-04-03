@@ -22,6 +22,7 @@
 
     .img-window img {
         max-width: 80vw;
+        height: auto;
         max-height: 80vh;
     }
 </style>
@@ -673,8 +674,9 @@ en cours de rédaction...
         let Img = document.createElement("img");
         imgWindow.appendChild(Img);
         Img.setAttribute("src", b.src)
-        Img.setAttribute("width", b.naturalWidth*2)
-        Img.setAttribute("height", b.naturalHeight*2)
+        if(window.innerWidth\2.5>=b.naturalWidth) {
+            Img.setAttribute("width", b.naturalWidth*2)
+        }
         });
     });
 </script>
