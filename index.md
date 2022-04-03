@@ -3,7 +3,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        text-align: center;
     }
 </style>
 
@@ -37,15 +37,19 @@ Voici une liste non exhaustive d'IDEs :
 
 [<img src="media/JetBrains.png" width="250"/>](media/JetBrains.png)
 
-*JetBrains*
+<p class="center"><em>JetBrains</em></p>
+
+<br>
 
 [<img src="media/Eclipse.png" width="250"/>](media/Eclipse.png)
 
-*Eclipse*
+<p class="center"><em>Eclipse</em></p>
+
+<br>
 
 [<img src="media/vscode.png" width="250"/>](media/vscode.png.png)
 
-*Visual Studio Code*
+<p class="center"><em>Visual Studio Code</em></p>
 
 <br>
 <br>
@@ -117,7 +121,8 @@ Pour ce qui est des autres informations présentent dans "head", elles ne nous s
 
 [<img src="media/page-title.png" width="720"/>](media/page-title.png)
 
-*Titre de la page*
+<p class="center"><em>Titre de la page</em></p>
+<br>
 
 Nous pouvons modifier le titre en "Page De Test". Cela donne :
 
