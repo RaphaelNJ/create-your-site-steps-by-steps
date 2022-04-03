@@ -23,8 +23,8 @@ Voici une liste non exhaustive d'IDEs :
 - IntelliJ IDEA : Destiné au Java (Par JetBrains) Payant
 - Notepad++ : multi langage (Par Don Ho) Gratuit
 
-[<br>](br)
-[<br>](br)
+<br>
+<br>
 
 [<img src="media/JetBrains.png" width="250"/>](media/JetBrains.png)
 
@@ -38,9 +38,9 @@ Voici une liste non exhaustive d'IDEs :
 
 *Visual Studio Code*
 
-[<br>](br)
-[<br>](br)
-[<br>](br)
+<br>
+<br>
+<br>
 
 
 ## Installation de l'IDE Visual Studio Code
@@ -59,8 +59,8 @@ Enfin, complétez le deamon d’installation :
 
 Visual Studio est désormais installé sur votre machine.
 
-[<br>](br)
-[<br>](br)
+<br>
+<br>
 
 
 ## Création de la page de notre site
@@ -76,7 +76,7 @@ Puis créer la base de notre page grâce à l’auto-complétions de VS Code :
 
 [<video width="720" controls muted><source src="media/html-createfile.mp4" type="video/mp4"></video>](media/html-createfile.mp4)
 
-[<br>](br)
+<br>
 
 #### Décomposition du code
 
@@ -146,7 +146,7 @@ Et sa fermeture :
 
 On constate aussi que les balises comme "meta", ne se ferment pas. Nous verrons d'autres balises comme celle-ci.
 
-[<br>](br)
+<br>
 
 #### Ouverture du code dans le navigateur
 
@@ -164,7 +164,7 @@ Nous pouvons désormais afficher la page web navigateur :
 
 [<video width="720" controls muted><source src="media/export-page-in-nav.mp4" type="video/mp4"></video>](media/export-page-in-nav.mp4)
 
-[<br>](br)
+<br>
 
 #### A la découverte des balises HTML
 
@@ -227,7 +227,7 @@ Résultat :
 
 [<img src="media/html-2.png" width="720"/>](media/html-2.png)
 
-[<br>](br)
+<br>
 
 
 ### A la découverte du CSS
@@ -322,7 +322,7 @@ Résultat :
 
 Les sélecteurs CSS peuvent s'avérer, parfois, très limités. C'est pourquoi, nous allons découvrir deux autres moyens de sélection CSS :
 
-[<br>](br)
+<br>
 
 #### Les class
 
@@ -343,7 +343,7 @@ Dans le CSS, nous pouvons le sélectionner comme ceci :
 
 Un "." est placé devant le sélecteur pour préciser qu'il s'agit d'une classe et non d'un type d'élément.
 
-[<br>](br)
+<br>
 
 #### Le style
 
@@ -426,7 +426,7 @@ Résultat :
 
 [<img src="media/css-2.png" width="720"/>](media/css-2.png)
 
-[<br>](br)
+<br>
 
 
 ### Quelques autres attributs CSS / éléments HTML
@@ -518,13 +518,13 @@ Résultat :
 
 [<img src="media/div.png" width="720"/>](media/div.png)
 
-[<br>](br)
-[<br>](br)
+<br>
+<br>
 
 
 # Publier Notre Site
 
-## Publier notre site grâce à GitHub pages
+## Publier notre site grâce à GitHub Pages
 
 GitHub est *la* plateforme de stockage de code pour développeur. Il agit comme un google drive, mais propose des outils dédiés et à une expérience optimisée pour le développement d'applications de tout langages de programmation.
 GitHub propose une solution d'hébergement de sites statiques gratuite, très simple et optimisé pour les débutants.
@@ -546,6 +546,34 @@ Une fois-là,
 
 Attendez quelques minutes le temps que le site se déploye. Puis rendez-vous sur l'adresse indiquée.
 Votre site web est désormais visible depuis le monde entier grâce à ce lien.
+
+<br>
+
+## Publier en local notre site grâce à Flask.py
+
+beaucoup de services peuvent être utilisés pour trasphormer notre machine en serveur web. Nous allons nous, utiliser Flask.py. En effet, Flask.py est, comme sont nom l'indique, une librairie python. L'aventage du language python est qu'il est conforme au programme scolaire.
+Pour installer Python, rendez-vous sur [ce site](https://www.python.org/downloads/).
+
+[<img src="media/python-dl.png" width="720"/>](media/python-dl.png)
+
+Suivez les procédures d'installation.
+Ouvrez Le CMD:
+
+[<img src="open-cmd.png" width="720"/>](media/open-cmd.png)
+
+Une fenêtre comme celle-ci devrait apparaître:
+
+[<img src="media/cmd.png" width="720"/>](media/cmd.png)
+
+Enterez "pip install Flask" comme suit:
+
+[<video width="720" controls muted><source src="media/pip-install-flask.mp4" type="video/mp4"></video>](media/pip-install-flask.mp4)
+
+Rendez-vous dans Visual Studio. pour instantier une nouvelle fenêtre : Ctrl + Shift + N
+
+
+## Publier en ligne notre site grâce à Ngrok
+
 
 <footer>
     <div style="text-align: center; margin-top : 10%">
