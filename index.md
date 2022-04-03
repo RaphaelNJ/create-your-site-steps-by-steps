@@ -673,6 +673,8 @@ en cours de rédaction...
         let Img = document.createElement("img");
         imgWindow.appendChild(Img);
         Img.setAttribute("src", b.src)
+        Img.setAttribute("width", b.naturalWidth*2)
+        Img.setAttribute("height", b.naturalHeight*2)
         });
     });
 </script>
