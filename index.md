@@ -1,6 +1,9 @@
 <style>
-    img, video {
-        align: center;
+    .center, img, video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 </style>
 
