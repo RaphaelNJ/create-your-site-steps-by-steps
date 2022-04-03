@@ -47,7 +47,7 @@ Voici une liste non exhaustive d'IDEs :
 
 <br>
 
-[<img src="media/vscode.png" width="250"/>](media/vscode.png.png)
+[<img src="media/vscode.png" width="250"/>](media/vscode.png)
 
 <p class="center"><em>Visual Studio Code</em></p>
 
@@ -535,6 +535,8 @@ Résultat :
 <br>
 <br>
 
+<h2>Reporting a security issue<a class="headerlink" href="#reporting-a-security-issue" title="Permalink to this headline">¶</a></h2>
+
 
 # Publier Notre Site
 
@@ -570,7 +572,12 @@ Pour installer Python, rendez-vous sur [ce site](https://www.python.org/download
 
 [<img src="media/python-dl.png" width="720"/>](media/python-dl.png)
 
-Suivez les procédures d'installation.
+Suivez les procédures d'installation:
+
+[<video width="720" controls muted><source src="media/setup-python.mp4" type="video/mp4"></video>](media/setup-python.mp4)
+
+
+
 Ouvrez Le CMD:
 
 [<img src="media/open-cmd.png" width="720"/>](media/open-cmd.png)
@@ -585,9 +592,45 @@ Enterez "pip install Flask" comme suit:
 
 Rendez-vous dans Visual Studio. pour instantier une nouvelle fenêtre : Ctrl + Shift + N
 
+Préparez votre environement de développement Python:
+
+[<video width="720" controls muted><source src="media/prepare-python-env.mp4" type="video/mp4"></video>](media/prepare-python-env.mp4)
+
+Entrez le code suivant :
+
+```python
+from flask import Flask, render_template # importation du micro-framework flask.py
+app = Flask(__name__) # instantiation de flask.py
+
+@app.route('/') # quand l'ip local de la machine sera entrée dans le navigateur, appeler la fonction suivante :
+def hello_world():
+    return 'Hello World!' # renvoyer 'Hello World !'
+
+if __name__ == '__main__':
+    app.run() # démarage de flask
+```
+
+Vous pouvez à présent lancer votre programme python et vous connectez à votre site :
+
+[<video width="720" controls muted><source src="media/lunch-site-python.mp4" type="video/mp4"></video>](media/lunch-site-python.mp4)
+
+Remarque : l'ip de la machine est une ip locale. la machine ne sera accéssible que sur le même résau qu'elle. nous verrons plus tard comment contourner la NAT et déployer sont serveur sur le monde entier grâce à Ngrok.
+
+Pour afficher votre page HTML, changez cette ligne :
+
+```python
+    return 'Hello World!' # renvoyer 'Hello World !'
+```
+
+Par :
+
+```python
+    return render_template("NOM DE VOTRE FICHIER")
+```
 
 ## Publier en ligne notre site grâce à Ngrok
 
+en cours de rédaction...
 
 <footer>
     <div style="text-align: center; margin-top : 10%">
