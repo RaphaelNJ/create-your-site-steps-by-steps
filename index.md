@@ -55,19 +55,19 @@ Voici une liste non exhaustive d'IDEs :
 <br>
 <br>
 
-[<img src="media/JetBrains.png" width="250"/>](media/JetBrains.png)
+<img src="media/JetBrains.png" width="250"/>
 
 <p class="center"><em>JetBrains</em></p>
 
 <br>
 
-[<img src="media/Eclipse.png" width="250"/>](media/Eclipse.png)
+<img src="media/Eclipse.png" width="250"/>
 
 <p class="center"><em>Eclipse</em></p>
 
 <br>
 
-[<img src="media/vscode.png" width="250"/>](media/vscode.png)
+<img src="media/vscode.png" width="250"/>
 
 <p class="center"><em>Visual Studio Code</em></p>
 
@@ -84,7 +84,7 @@ Pour ce faire, nous allons nous rendre à [cette](https://code.visualstudio.com)
 
 Puis,
 
-[<img src="media/vscode-dl-1.png" width="720"/>](media/vscode-dl-1.png)
+<img src="media/vscode-dl-1.png" width="720"/>
 
 Enfin, complétez le deamon d’installation :
 
@@ -139,7 +139,7 @@ Ce bloc est encadré par la balise "head". Elle s'ouvre par <head> et se ferme p
 Les informations comprises dans cette balise donne au navigateur des informations comme l'encodage de la page (``<meta charset="UTF-8">``) ou encore le titre de celle-ci (``<title>Document</title>``). A noter que le titre "Document" est compris dans la balise "titre" (elle-même comprise dans la balise "head", elle-même comprise dans la balise "html"). Ce principe de "balisage" et "compris entre" est déterminent dans le HTML.
 Pour ce qui est des autres informations présentent dans "head", elles ne nous sont pas utiles pour le moment. Nous n’y toucherons pas
 
-[<img src="media/page-title.png" width="720"/>](media/page-title.png)
+<img src="media/page-title.png" width="720"/>
 
 <p class="center"><em>Titre de la page</em></p>
 <br>
@@ -221,7 +221,7 @@ La balise "strong" permet, elle d'afficher du texte en gras. La "i", en italique
 
 Résultat :
 
-[<img src="media/html-1.png" width="720"/>](media/html-1.png)
+<img src="media/html-1.png" width="720"/>
 
 ---
 
@@ -259,7 +259,7 @@ Voici d'autres balises utiles :
 
 Résultat :
 
-[<img src="media/html-2.png" width="720"/>](media/html-2.png)
+<img src="media/html-2.png" width="720"/>
 
 <br>
 
@@ -352,7 +352,7 @@ On a, dans notre fichier HTML :
 
 Résultat :
 
-[<img src="media/css-1.png" width="720"/>](media/css-1.png)
+<img src="media/css-1.png" width="720"/>
 
 Les sélecteurs CSS peuvent s'avérer, parfois, très limités. C'est pourquoi, nous allons découvrir deux autres moyens de sélection CSS :
 
@@ -458,7 +458,7 @@ Ici, font-size détermine la taille (px veut dire pixels mais d'autres unités d
 
 Résultat :
 
-[<img src="media/css-2.png" width="720"/>](media/css-2.png)
+<img src="media/css-2.png" width="720"/>
 
 <br>
 
@@ -550,7 +550,7 @@ p {
 
 Résultat :
 
-[<img src="media/div.png" width="720"/>](media/div.png)
+<img src="media/div.png" width="720"/>
 
 <br>
 <br>
@@ -571,7 +571,7 @@ Rendez-vous sur [cette](https://github.com/) page
 
 Répondez aux dernières questions.
 Vous devriez arriver sur cette page ci :
-[<img src="media/home-page-github.png" width="720"/>](media/home-page-github.png)
+<img src="media/home-page-github.png" width="720"/>
 
 Une fois-là,
 
@@ -588,7 +588,7 @@ Votre site web est désormais visible depuis le monde entier grâce à ce lien.
 beaucoup de services peuvent être utilisés pour trasphormer notre machine en serveur web. Nous allons nous, utiliser Flask.py. En effet, Flask.py est, comme sont nom l'indique, une librairie python. L'aventage du language python est qu'il est conforme au programme scolaire.
 Pour installer Python, rendez-vous sur [ce site](https://www.python.org/downloads/).
 
-[<img src="media/python-dl.png" width="720"/>](media/python-dl.png)
+<img src="media/python-dl.png" width="720"/>
 
 Suivez les procédures d'installation:
 
@@ -598,11 +598,11 @@ Suivez les procédures d'installation:
 
 Ouvrez Le CMD:
 
-[<img src="media/open-cmd.png" width="720"/>](media/open-cmd.png)
+<img src="media/open-cmd.png" width="720"/>
 
 Une fenêtre comme celle-ci devrait apparaître:
 
-[<img src="media/cmd.png" width="720"/>](media/cmd.png)
+<img src="media/cmd.png" width="720"/>
 
 Enterez "pip install Flask" comme suit:
 
