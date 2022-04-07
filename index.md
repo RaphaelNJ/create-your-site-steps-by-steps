@@ -585,18 +585,17 @@ Votre site web est désormais visible depuis le monde entier grâce à ce lien.
 
 ## Publier en local notre site grâce à Flask.py
 
-beaucoup de services peuvent être utilisés pour trasphormer notre machine en serveur web. Nous allons nous, utiliser Flask.py. En effet, Flask.py est, comme sont nom l'indique, une librairie python. L'aventage du language python est qu'il est conforme au programme scolaire.
+Beaucoup de services peuvent être utilisés pour transformer notre machine en serveur web. Nous allons nous, utiliser Flask.py. En effet, Flask.py est, comme son nom l'indique, une librairie python. L'avantage du langage python est qu'il est conforme au programme scolaire.
 Pour installer Python, rendez-vous sur [ce site](https://www.python.org/downloads/).
 
 <img src="media/python-dl.png" width="720"/>
 
-Suivez les procédures d'installation:
+Suivez les procédures d’installation :
 
 [<video width="720" controls muted><source src="media/setup-python.mp4" type="video/mp4"></video>](media/setup-python.mp4)
 
 
-
-Ouvrez Le CMD:
+Ouvrez Le CMD :
 
 <img src="media/open-cmd.png" width="720"/>
 
@@ -604,13 +603,13 @@ Une fenêtre comme celle-ci devrait apparaître:
 
 <img src="media/cmd.png" width="720"/>
 
-Enterez "pip install Flask" comme suit:
+Entrez "pip install Flask" comme suit :
 
 [<video width="720" controls muted><source src="media/pip-install-flask.mp4" type="video/mp4"></video>](media/pip-install-flask.mp4)
 
-Rendez-vous dans Visual Studio. pour instantier une nouvelle fenêtre : Ctrl + Shift + N
+Rendez-vous dans Visual Studio. Pour instancier une nouvelle fenêtre : Ctrl + Shift + N
 
-Préparez votre environement de développement Python:
+Préparez votre environnement de développement Python :
 
 [<video width="720" controls muted><source src="media/prepare-python-env.mp4" type="video/mp4"></video>](media/prepare-python-env.mp4)
 
@@ -632,7 +631,7 @@ Vous pouvez à présent lancer votre programme python et vous connectez à votre
 
 [<video width="720" controls muted><source src="media/lunch-site-python.mp4" type="video/mp4"></video>](media/lunch-site-python.mp4)
 
-Remarque : l'ip de la machine est une ip locale. la machine ne sera accéssible que sur le même résau qu'elle. nous verrons plus tard comment contourner la NAT et déployer sont serveur sur le monde entier grâce à Ngrok.
+Remarque : l'ip de la machine est une ip locale. la machine ne sera accessible que sur le même réseau qu'elle. Nous verrons plus tard comment contourner la NAT et déployer son serveur sur le monde entier grâce à Ngrok.
 
 Pour afficher votre page HTML, changez cette ligne :
 
