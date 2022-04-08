@@ -6,6 +6,16 @@
         text-align: center;
     }
 
+    .credits {
+        position: fixed;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+
     .img-window {
         width: 100vw;
         height: 100vh;
@@ -661,7 +671,8 @@ en cours de rédaction...
     let imgs = document.getElementsByTagName("img");
     let container = document.body;
     let footer = document.createElement("footer");
-    footer.innerHTML = "<h1>Développent du site et explications : Raphael Noël-Jean</h1><h1>Desing et corrections lexicales : Lucas Cocillat</h1>"
+    footer.setAttribute("class", "credits");
+    footer.innerHTML = "<h1>Développent du site et explications : Raphael Noël-Jean</h1><h1>Desing et corrections lexicales : Lucas Coquillat</h1>"
     container.appendChild(footer);
     function closeImg() {
         document.querySelector(".img-window").remove();
