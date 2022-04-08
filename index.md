@@ -659,19 +659,22 @@ en cours de rédaction...
     </div>
 </footer><script>
     let imgs = document.getElementsByTagName("img");
+    let container = document.body;
+    let footer = document.createElement("footer");
+    footer.innerHTML = "<h1>Développent du site et explications : Raphael Noël-Jean</h1><h1>Desing et corrections lexicales : Lucas Cocillat</h1>"
+    container.appendChild(footer);
     function closeImg() {
         document.querySelector(".img-window").remove();
     }
     Array.from(imgs).forEach(b => {
-    b.addEventListener("click", function() {
-        let container = document.body;
-        let imgWindow = document.createElement("div");
-        container.appendChild(imgWindow);
-        imgWindow.setAttribute("class", "img-window");
-        imgWindow.setAttribute("onclick", "closeImg()");
-        let Img = document.createElement("img");
-        imgWindow.appendChild(Img);
-        Img.setAttribute("src", b.src)
+        b.addEventListener("click", function() {
+            let imgWindow = document.createElement("div");
+            container.appendChild(imgWindow);
+            imgWindow.setAttribute("class", "img-window");
+            imgWindow.setAttribute("onclick", "closeImg()");
+            let Img = document.createElement("img");
+            imgWindow.appendChild(Img);
+            Img.setAttribute("src", b.src)
         });
     });
 </script>
