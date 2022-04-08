@@ -672,7 +672,7 @@ en cours de rédaction...
     let container = document.body;
     let footer = document.createElement("footer");
     footer.setAttribute("class", "credits");
-    footer.innerHTML = "<h1>Développent du site et explications : Raphael Noël-Jean</h1><h1>Desing et corrections lexicales : Lucas Coquillat</h1>"
+    footer.innerHTML = "<h1>Développent du site et explications : Raphael Noël-Jean</h1><h1>Design et corrections lexicales : Lucas Coquillat</h1>"
     container.appendChild(footer);
     function closeImg() {
         document.querySelector(".img-window").remove();
