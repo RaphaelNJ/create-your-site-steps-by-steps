@@ -7,9 +7,6 @@
     }
 
     .credits {
-        position: fixed;
-        top: 0;
-        left: 0;
         cursor: pointer;
         display: flex;
         justify-content: center;
