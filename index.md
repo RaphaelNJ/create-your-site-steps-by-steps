@@ -396,8 +396,7 @@ Style aussi est un paramètre de balise HTML. Il injecte directement du code CSS
 
 Nous pouvons combiner ces 3 méthodes de sélections :
 
-<tr>
-<td>
+
 Code HTML :
 
 ```xml
@@ -424,8 +423,8 @@ Code HTML :
 </body>
 </html>
 ```
-</td>
-<td>
+
+
 Code CSS :
 
 ```css
@@ -455,8 +454,7 @@ h2 strong {
     color: aqua;
 }
 ```
-</td>
-</tr>
+
 
 Ici, font-size détermine la taille (px veut dire pixels mais d'autres unités de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions : haut, bas, gauche, droite) de notre élément.
 
