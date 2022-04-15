@@ -396,6 +396,8 @@ Style aussi est un paramètre de balise HTML. Il injecte directement du code CSS
 
 Nous pouvons combiner ces 3 méthodes de sélections :
 
+<tr>
+<td>
 Code HTML :
 
 ```xml
@@ -422,7 +424,8 @@ Code HTML :
 </body>
 </html>
 ```
-
+</td>
+<td>
 Code CSS :
 
 ```css
@@ -452,6 +455,9 @@ h2 strong {
     color: aqua;
 }
 ```
+</td>
+</tr>
+
 Ici, font-size détermine la taille (px veut dire pixels mais d'autres unités de mesures sont possibles) de la police. Et padding, détermine la marge (universelle c'est-à-dire dans toutes les directions : haut, bas, gauche, droite) de notre élément.
 
 |Attribut CSS  |Utilité                        |
@@ -685,4 +691,25 @@ en cours de rédaction...
             Img.setAttribute("src", b.src)
         });
     });
+</script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDVUCXgbsP0S6ZwAYkSOXe4RQuvHiKNswc",
+    authDomain: "snts-c2c27.firebaseapp.com",
+    projectId: "snts-c2c27",
+    storageBucket: "snts-c2c27.appspot.com",
+    messagingSenderId: "190200846292",
+    appId: "1:190200846292:web:86cd3c5d748e17b86ca841",
+    measurementId: "G-B32WCL9C7Z"
+  };
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
 </script>
